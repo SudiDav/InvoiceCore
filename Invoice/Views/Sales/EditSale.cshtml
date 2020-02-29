@@ -1,0 +1,204 @@
+﻿@model int
+@{
+    ViewData["Title"] = "Modifier la Vente";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<style type="text/css">
+    .bg_1 {
+        background-color: green;
+    }
+
+    .bg_2 {
+        background-color: gray;
+    }
+
+
+    .error_msg {
+        color: #f00;
+        display: none;
+    }
+
+    .table {
+        /* width: 100%; */
+        /* max-width: 100%; */
+        margin-bottom: 0px;
+    }
+</style>
+<link href="~/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" rel="stylesheet" />  
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-title">
+
+                    </div>
+                    <div class="card-body" id="masterSale">
+                        <div class="col-md-12">
+                            <div class="form-inline">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="Name">Client &nbsp  </label>
+                                        <select id="Customer" class="form-control" onchange="blankme(this.id)">
+                                            <option value="">Select Customer</option>
+                                        </select>
+                                        <small id="error_Customer" class="form-text error_msg">Sélectionnez un client dans la liste</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="Code"> Code  &nbsp</label>
+                                        @Html.TextBox("Code", null, new { @class = "form-control", @placeholder = "Entrez le numéro de vente", onkeyup = "blankme(this.id)" })
+                                        <small id="error_Code" class="form-text error_msg col-md-offset-2 "> Le code de vente est requis</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="Date"> Date  &nbsp</label>
+                                        @Html.TextBox("Date", null, new { @class = "form-control mydatepicker", @placeholder = "Sélectionnez la date de vente ", onchange = "blankme(this.id)" })
+                                        <small id="error_Date" class="form-text error_msg col-md-offset-2 ">La date de vente est obligatoire</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br /> <br />
+                        <div class="col-md-12">
+                            <label class="col-md-2"> Rechercher un produit</label>
+                            <div class="input-group input-group-default col-md-8">
+                                <span class="input-group-btn"><button class="btn btn-primary" type="submit"><i class="ti-search"></i></button></span>
+                                <input type="text" placeholder="Rechercher un produit" name="Search" id="Search" class="form-control">
+                            </div>
+
+                            <br />
+
+                            <table class="table table-hover col-md-12" id="detailsTable">
+                                <thead>
+                                    <tr>
+                                        <th style="width:280px">Nom</th>
+                                        <th>Unit</th>
+                                        <th>Quantité</th>
+                                        <th>Montant</th>
+                                        <th style="width:20px"></th>
+
+                                    </tr>
+                                </thead>
+                                <tbody id="itemDetails"></tbody>
+                                <tfoot>
+                                    <tr>
+
+                                        <td></td>
+                                        <td></td>
+                                        <td> <strong> Total:</strong> </td>
+                                        <td> <strong id="SubTotal">  </strong> </td>
+                                        <td></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+
+                            <small id="error_SubTotal" class="form-text error_msg"> Ajouter au moins un élément</small>
+                            <br />
+                            <br />
+
+                            <div class="row">
+                                <div class="col-md-5">
+
+                                    <div class="form-group">
+                                        <label for="Date"> Mode de paiement : </label>
+                                        @Html.DropDownList("Payment", new List<SelectListItem>
+                                            {
+                                                new SelectListItem() {Text = "Cash", Value="Cash"},
+                                                new SelectListItem() {Text = "Check", Value="Check"},
+                                            }, "Select Payment", new { @class = "form-control", onchange = "blankme(this.id)" })
+                                        <small id="error_Payment" class="form-text error_msg">Select Payment Method</small>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Status"> Statut : </label>
+                                        @Html.DropDownList("Status", new List<SelectListItem>
+                                        {
+                                            new SelectListItem() {Text = "Due", Value="Due"},
+                                            new SelectListItem() {Text = "Paid", Value="Paid"},
+                                        }, "Select Status", new { @class = "form-control", onchange = "blankme(this.id)" })
+                                        <small id="error_Status" class="form-text error_msg">Select Sale Status</small>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Notes"> Remarques: </label>
+                                        @Html.TextArea("Notes", new { @class = "form-control", @rows = "5", @placeholder = "Entrez des Remarques" })
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 col-md-offset-3"></div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="Discount"> Discount : </label>
+                                        @Html.TextBox("Discount", null, new { @class = "form-control", @Value = 0, @type = "number", @placeholder = "Montant de la remise ", onchange = "DiscountAmount()" })
+                                        <small id="error_Discount" class="form-text error_msg">La remise ne peut pas être vide</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="GrandTotal"> Somme Totale : </label>
+                                        <input type="text" id="GrandTotal" class="form-control" readonly />
+                                        <small id="error_GrandTotal" class="form-text error_msg">La Totale est vide</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-horizontal">
+                                <label> </label>
+                                <input id="BtnUpdate" data-sale-Id="@Model" class="btn btn-success col-md-3 pull-right" type="submit" value="Mettre à jour la vente" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- panel-body -->
+            </div>
+            <!-- panel -->
+        </div>
+    </div>
+
+</div>
+
+
+
+
+@section scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        function getSale(id) {
+            return $.ajax({
+                type: 'GET',
+                datatype: "Json",
+                url: "/Sales/GetSales",
+                data: "saleId=" + id
+            });
+        }
+        var saleId = $("#BtnUpdate").attr("data-sale-Id");
+        $('#masterSale').ready(function () {
+            $.when(getSale(saleId)).then(function (res) {
+                console.log(res);
+                var detArr = [];
+                $("#Code").val(res.saleCode);
+                $("#Customer").val(res.customerId);
+                var date = new Date(res.salesDate);
+                var ret = date.getMonth() + 1 + "/" + date.getDate() + "/" + date.getFullYear();
+                $("#Date").val(ret);
+                $("#Notes").val(res.notes);
+                $("#Payment").val(res.paymentMethod);
+                $("#Status").val(res.status);
+                $("#SubTotal").text(res.total);
+                $("#Discount").val(res.discount);
+                $("#GrandTotal").val(res.grandTotal);
+                $.each(res.items, function (i, v) {
+                    detArr.push('<tr>  + <td>' + v.name + '</td><td>' + v.price + '</td><td>' + '<input  class="qunatity" type= "number" min= "1" step= "1" value= ' + v.quantity + '  max="99" />' + '</td><td class="amount">' + v.amount + '</td><td><a data-itemId="' + v.id + '" href="#" class="deleteItem"><i class="fa fa-trash"></i></a></td></tr>');
+                });
+                $("#detailsTable tbody").append(detArr);
+
+                //$("#orderMasterId").val(res.result.MasterId);
+
+            }).fail(function (err) {
+                console.log(err);
+            });
+        });
+    </script>
+}

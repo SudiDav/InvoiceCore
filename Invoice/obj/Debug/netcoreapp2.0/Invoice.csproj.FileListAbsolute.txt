@@ -1,0 +1,62 @@
+c:\users\microasif\source\repos\Invoice\Invoice\obj\Debug\netcoreapp2.0\Invoice.csproj.CoreCompileInputs.cache
+c:\users\microasif\source\repos\Invoice\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfoInputs.cache
+c:\users\microasif\source\repos\Invoice\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfo.cs
+c:\users\microasif\source\repos\Invoice\Invoice\bin\Debug\netcoreapp2.0\Invoice.deps.json
+c:\users\microasif\source\repos\Invoice\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.json
+c:\users\microasif\source\repos\Invoice\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.dev.json
+c:\users\microasif\source\repos\Invoice\Invoice\bin\Debug\netcoreapp2.0\Invoice.dll
+c:\users\microasif\source\repos\Invoice\Invoice\bin\Debug\netcoreapp2.0\Invoice.pdb
+c:\users\microasif\source\repos\Invoice\Invoice\obj\Debug\netcoreapp2.0\Invoice.dll
+c:\users\microasif\source\repos\Invoice\Invoice\obj\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.deps.json
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.json
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.dev.json
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.dll
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.csproj.CoreCompileInputs.cache
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfoInputs.cache
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfo.cs
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.dll
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\microasif\source\repos\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.csprojResolveAssemblyReference.cache
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.deps.json
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.json
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.dev.json
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.dll
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.csprojResolveAssemblyReference.cache
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.csproj.CoreCompileInputs.cache
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfoInputs.cache
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfo.cs
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.dll
+C:\Users\microasif\Desktop\invoice core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.deps.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.dev.json
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.dll
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.csprojAssemblyReference.cache
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfoInputs.cache
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfo.cs
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.dll
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.pdb
+C:\Users\Simba\Downloads\codecanyon-VY3e5zeh-easy-invoice-generator-aspnet-core-with-ef-core\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\libman.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\appsettings.Development.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\appsettings.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\bundleconfig.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\libman.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.deps.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.runtimeconfig.dev.json
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.dll
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\bin\Debug\netcoreapp2.0\Invoice.pdb
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.csprojAssemblyReference.cache
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfoInputs.cache
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.AssemblyInfo.cs
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.dll
+F:\JBC\WorkInProgress\JBCGSTFrenchish\Invoice\Invoice\InvoiceCore\Invoice\obj\Debug\netcoreapp2.0\Invoice.pdb
